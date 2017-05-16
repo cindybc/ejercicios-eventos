@@ -16,7 +16,7 @@ function mouse(){
   });
 
   inputito.addEventListener("mouseout", function(){
-    alert("No estas sobre mi")
+    alert("No estas sobre mi");
   });
 }
 
