@@ -8,11 +8,12 @@ function clicki(){
     document.getElementById("text").innerHTML = "HOLA MUNDO";
   });
 }
+
 function mouse(){
 
   var inputito = document.getElementById("cajita");
   inputito.addEventListener("mouseover", function(){
-    alert("Estas sobre mi  ");
+    alert("Estas sobre mi");
   });
 
   inputito.addEventListener("mouseout", function(){
