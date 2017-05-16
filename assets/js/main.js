@@ -12,7 +12,7 @@ function mouse(){
 
   var inputito = document.getElementById("cajita");
   inputito.addEventListener("mouseover", function(){
-    alert("Estas sobre mi :P ");
+    alert("Estas sobre mi");
   });
 
   inputito.addEventListener("mouseout", function(){
